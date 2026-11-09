@@ -1,0 +1,228 @@
+{
+  "groups": [
+    {
+      "title": "Getting Started",
+      "section": "start",
+      "items": [
+        {
+          "slug": "getting-started",
+          "name": "Overview",
+          "ko": "소개"
+        },
+        {
+          "slug": "assets",
+          "name": "Assets",
+          "ko": "에셋",
+          "section": "assets"
+        }
+      ]
+    },
+    {
+      "title": "Foundations",
+      "section": "foundations",
+      "items": [
+        {
+          "slug": "color",
+          "name": "Color",
+          "ko": "색상"
+        },
+        {
+          "slug": "typography",
+          "name": "Typography",
+          "ko": "타이포그래피"
+        },
+        {
+          "slug": "grid",
+          "name": "Grid",
+          "ko": "간격·레이아웃"
+        },
+        {
+          "slug": "icons",
+          "name": "Icons",
+          "ko": "아이콘"
+        },
+        {
+          "slug": "elevation",
+          "name": "Elevation",
+          "ko": "깊이"
+        },
+        {
+          "slug": "motion",
+          "name": "Motion",
+          "ko": "모션"
+        },
+        {
+          "slug": "writing",
+          "name": "Writing",
+          "ko": "글쓰기"
+        },
+        {
+          "slug": "tokens",
+          "name": "Tokens",
+          "ko": "토큰"
+        }
+      ]
+    },
+    {
+      "title": "Components",
+      "section": "components",
+      "subgroups": [
+        {
+          "title": "Actions",
+          "items": [
+            {
+              "slug": "button",
+              "name": "Button",
+              "ko": "버튼",
+              "preview": true
+            }
+          ]
+        },
+        {
+          "title": "Navigation",
+          "items": [
+            {
+              "slug": "site-header",
+              "name": "SiteHeader",
+              "ko": "헤더",
+              "preview": true
+            },
+            {
+              "slug": "footer",
+              "name": "Footer",
+              "ko": "푸터",
+              "preview": true
+            },
+            {
+              "slug": "tabs",
+              "name": "Tabs",
+              "ko": "탭",
+              "preview": true
+            },
+            {
+              "slug": "filter",
+              "name": "Filter",
+              "ko": "필터",
+              "preview": true
+            }
+          ]
+        },
+        {
+          "title": "Cards",
+          "items": [
+            {
+              "slug": "area-card",
+              "name": "AreaCard",
+              "ko": "영역 카드",
+              "preview": true
+            },
+            {
+              "slug": "solution-card",
+              "name": "SolutionCard",
+              "ko": "솔루션 카드",
+              "preview": true
+            },
+            {
+              "slug": "carousel",
+              "name": "Carousel",
+              "ko": "캐러셀",
+              "preview": true
+            },
+            {
+              "slug": "news-card",
+              "name": "NewsCard",
+              "ko": "뉴스 카드",
+              "preview": true
+            },
+            {
+              "slug": "banner",
+              "name": "Banner",
+              "ko": "배너",
+              "preview": true
+            }
+          ]
+        },
+        {
+          "title": "Forms",
+          "items": [
+            {
+              "slug": "field",
+              "name": "Field",
+              "ko": "입력창",
+              "preview": true
+            },
+            {
+              "slug": "choice-chip",
+              "name": "ChoiceChip",
+              "ko": "선택 칩",
+              "preview": true
+            },
+            {
+              "slug": "stepper",
+              "name": "Stepper",
+              "ko": "단계 표시",
+              "preview": true
+            }
+          ]
+        },
+        {
+          "title": "Feedback",
+          "items": [
+            {
+              "slug": "notice",
+              "name": "Notice",
+              "ko": "안내",
+              "preview": true
+            }
+          ]
+        },
+        {
+          "title": "Display",
+          "items": [
+            {
+              "slug": "badge",
+              "name": "Badge",
+              "ko": "배지",
+              "preview": true
+            },
+            {
+              "slug": "category-chip",
+              "name": "CategoryChip",
+              "ko": "분류 칩",
+              "preview": true
+            },
+            {
+              "slug": "tool-chip",
+              "name": "ToolChip",
+              "ko": "도구 칩",
+              "preview": true
+            },
+            {
+              "slug": "flow-list",
+              "name": "FlowList",
+              "ko": "진행 과정",
+              "preview": true
+            }
+          ]
+        },
+        {
+          "title": "Overlays",
+          "items": [
+            {
+              "slug": "floating-widget",
+              "name": "FloatingWidget",
+              "ko": "플로팅 위젯",
+              "preview": true
+            },
+            {
+              "slug": "brochure-modal",
+              "name": "BrochureModal",
+              "ko": "소개서 모달",
+              "preview": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

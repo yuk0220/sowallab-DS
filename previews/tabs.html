@@ -1,0 +1,18 @@
+<div style="padding:24px">
+<div class="tabs" role="tablist" aria-label="솔루션 영역"><span class="tab-ind" aria-hidden="true"></span>
+  <button type="button" class="tab" role="tab" aria-selected="true">3D 영업자료</button>
+  <button type="button" class="tab" role="tab" aria-selected="false">홈페이지</button>
+  <button type="button" class="tab" role="tab" aria-selected="false">제품 영상</button>
+  <button type="button" class="tab" role="tab" aria-selected="false">AX·시뮬레이션</button>
+</div>
+<div style="margin-top:16px"><div class="tabs" role="tablist" aria-label="문의 유형"><span class="tab-ind" aria-hidden="true"></span>
+  <button type="button" class="tab" role="tab" aria-selected="true">무료 3D 시안</button>
+  <button type="button" class="tab" role="tab" aria-selected="false">프로젝트 문의</button>
+  <button type="button" class="tab" role="tab" aria-selected="false">기타 문의</button>
+</div></div>
+</div>
+<script>
+document.querySelectorAll('.tabs').forEach(function(t){var ind=t.querySelector('.tab-ind');function place(){var s=t.querySelector('[aria-selected="true"]');if(!s)return;ind.style.width=s.offsetWidth+'px';ind.style.transform='translateX('+s.offsetLeft+'px)';}
+t.addEventListener('click',function(e){var b=e.target.closest('.tab');if(!b)return;t.querySelectorAll('.tab').forEach(function(x){x.setAttribute('aria-selected',String(x===b));});place();});
+place();if(document.fonts)document.fonts.ready.then(place);});
+</script>

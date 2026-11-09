@@ -1,0 +1,4 @@
+/* Pretendard (SIL OFL 1.1) — 사이트에 쓰인 글자만 담은 경량 파일. 문서가 늘면 다시 만듭니다. */
+@font-face { font-family: "Pretendard"; font-weight: 400; font-style: normal; font-display: swap; src: url("fonts/Pretendard-Regular.subset.woff2") format("woff2"); }
+@font-face { font-family: "Pretendard"; font-weight: 500; font-style: normal; font-display: swap; src: url("fonts/Pretendard-Medium.subset.woff2") format("woff2"); }
+@font-face { font-family: "Pretendard"; font-weight: 600; font-style: normal; font-display: swap; src: url("fonts/Pretendard-SemiBold.subset.woff2") format("woff2"); }

@@ -1,0 +1,8 @@
+<div style="padding:24px">
+<div class="filters" style="margin-top:0;justify-content:flex-start">
+  <button class="filter" aria-pressed="true">전체</button><button class="filter" aria-pressed="false">기사</button><button class="filter" aria-pressed="false">3D 카탈로그</button><button class="filter" aria-pressed="false">시뮬레이션</button><button class="filter" aria-pressed="false">영업 도구</button>
+</div>
+</div>
+<script>
+document.querySelector('.filters').addEventListener('click',function(e){var b=e.target.closest('.filter');if(!b)return;this.querySelectorAll('.filter').forEach(function(x){x.setAttribute('aria-pressed',String(x===b));});});
+</script>
