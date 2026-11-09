@@ -10,8 +10,8 @@
 
 | 묶음 | 개수 | 예 |
 | --- | --- | --- |
-| Atomic color | 49 | `primary-500`, `white-8` |
-| Semantic color | 52 | `text-sub`, `fill-primary-hover` |
+| Atomic color | 58 | `primary-500`, `white-8` |
+| Semantic color | 59 | `text-sub`, `fill-primary-hover` |
 | shadcn alias | 12 | `background`, `card`, `muted`, `ring` |
 | Category · Figure | 8 | `cat-2`, `thumb-default` |
 | Spacing | 14 | `space-4`, `container-max` |
@@ -25,7 +25,7 @@
 | 자리 | 값 |
 | --- | --- |
 | 요소 | text, icon, border, fill, layer |
-| 역할 | primary, secondary, warning, sub, minimum |
+| 역할 | primary, secondary, warning, success, sub, minimum |
 | 상태 | hover, pressed, disable, selected |
 
 예: `text-secondary-hover`, `fill-primary-pressed`
