@@ -34,6 +34,7 @@ sowallab의 컬러 시스템은 무채색 바탕 위에 청보라를 아주 적�
 | `text-disable` | neutral-500 | 비활성 글자 |
 | `text-primary` | primary-400 | 청보라 글자 링크 |
 | `text-warning` | warning-400 | 오류 메시지 |
+| `text-success` | success-400 | 완료·성공 메시지, 독스 Do 카드 |
 | `text-on` | white | 채움 버튼 위 글자 |
 
 ## Line
@@ -47,6 +48,7 @@ sowallab의 컬러 시스템은 무채색 바탕 위에 청보라를 아주 적�
 | `border-secondary-hover` | white 50% | outline 버튼 hover |
 | `border-primary` | primary-500 | 포커스 |
 | `border-warning` | warning-500 | 오류 입력창 |
+| `border-success` | success-500 | 완료된 입력창 |
 
 ## Fill
 
@@ -57,6 +59,7 @@ sowallab의 컬러 시스템은 무채색 바탕 위에 청보라를 아주 적�
 | `fill-primary` | primary-500 / 400 / 600 | 뉴스룸 필터 선택 |
 | `fill-secondary` | neutral-600 / 500 / 700 | 헤더·푸터의 어두운 CTA |
 | `fill-warning` | warning-500 / 400 / 600 | 위험한 행동 |
+| `fill-success` | success-500 / 400 / 600 | 완료·성공 상태 |
 
 ## Brand Point
 
@@ -102,6 +105,7 @@ sowallab의 컬러 시스템은 무채색 바탕 위에 청보라를 아주 적�
 | Primary Tinted | #6767F1의 8 · 16 · 32 · 48 · 72% |
 | Neutral | white · 100 #F3F5F9 · 200 #D8DCE5 · 300 #ABB0BC · 400 #848A99 · 500 #575C68 · 600 #3F434D · 700 #2C2F37 · 800 #1F2229 · 900 #15171D · black |
 | Warning | 100 #FFDFDF · 200 #FFC5C5 · 300 #FF88A1 · 400 #FF4C83 · 500 #FF2E79 · 600 #ED1565 · 700 #CF0A51 · 800 #B50047 · 900 #69002F |
+| Success | 100 #D9F8E7 · 200 #B3F0CF · 300 #6FE3A7 · **400 #22D37F** · 500 #14B86B · 600 #0FA05C · 700 #0B8A4C · 800 #07733F · 900 #033D22 |
 | Alpha | white 4 · 8 · 16 · 32 · 50% / black 20 · 50 · 70% |
 | CTA vivid | #F9FFAC → #9DFFFF → #FFBFFE |
 | CTA soft | #FCFFDE → #E4FFF5 → #E9F4FF → #FEE6FF |
@@ -116,6 +120,7 @@ sowallab의 컬러 시스템은 무채색 바탕 위에 청보라를 아주 적�
 | `text-minimum` / `bg` · `card` | 8.2:1 · 7.3:1 | 통과 |
 | `text-primary` / `bg` | 6.3:1 | 통과 |
 | `text-warning` / `bg` | 5.6:1 | 통과 |
+| `text-success` / `bg` | 9.1:1 | 통과 |
 | 흰 글자 / `fill-secondary` | 9.9:1 | 통과 |
 | 흰 글자 / `fill-primary` | 4.4:1 | 14px 기준 미달, 15px 이상 500으로 씁니다 |
 | `text-disable` / `bg` | 2.7:1 | 비활성 전용 |
