@@ -1,7 +1,6 @@
 name: DS 정합성 점검
 
 on:
-  pull_request:
   push:
     branches: [main]
 
