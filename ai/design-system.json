@@ -317,8 +317,8 @@
  },
  "lastChange": {
   "by": "육예진",
-  "at": "2026-11-09T16:42:27Z",
+  "at": "2026-11-10T14:54:49Z",
   "via": "Claude Code",
-  "note": "success 색 계열(400 #22D37F)과 text·icon·border·fill-success 시맨틱 토큰 추가"
+  "note": "뉴스 카드 그래픽 제목(.gen b) 굵기 700 → 600, 굵기 상한 규칙에 맞춤"
  }
 }

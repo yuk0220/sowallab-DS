@@ -346,7 +346,7 @@ body { margin: 0; background: var(--background); color: var(--foreground); font-
   .ncard .thumb { position: relative; aspect-ratio: 16 / 10; border-radius: var(--radius-media); background: var(--muted); overflow: hidden; }
   .ncard .thumb img, .art-img img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
   .gen { position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: flex-end; gap: 4px; padding: 20px 22px; background: var(--muted); text-align: left; }
-  .gen b { font-size: clamp(18px, 1.6vw, 22px); letter-spacing: -0.03em; font-weight: 700; color: var(--foreground); }
+  .gen b { font-size: clamp(18px, 1.6vw, 22px); letter-spacing: -0.03em; font-weight: 600; color: var(--foreground); }
   .gen span { font-size: 13px; color: var(--muted-foreground); }
   .gen.news { background: #24242B; }
   .gen.news b { color: #EDEDF1; } .gen.news span { color: #A3A3AE; }
