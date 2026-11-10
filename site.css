@@ -25,17 +25,6 @@
   --top: 60px;
   color-scheme: dark;
 }
-@media (prefers-color-scheme: light) {
-  :root:not([data-theme="dark"]) {
-    --bg: #ffffff; --surface: #f3f5f9; --raised: #d8dce5;
-    --line: rgba(21, 23, 29, .09); --line-strong: rgba(21, 23, 29, .18);
-    --text: #15171d; --sub: #2c2f37; --muted: #575c68;
-    --accent: #4646c6; --accent-bg: rgba(103, 103, 241, .1);
-    --hover: rgba(21, 23, 29, .04); --code-bg: rgba(21, 23, 29, .06);
-    --do: var(--success-700, #0b8a4c); --dont: var(--warning-700, #cf0a51);
-    color-scheme: light;
-  }
-}
 :root[data-theme="light"] {
   --bg: #ffffff; --surface: #f3f5f9; --raised: #d8dce5;
   --line: rgba(21, 23, 29, .09); --line-strong: rgba(21, 23, 29, .18);
@@ -75,7 +64,6 @@ button { font: inherit; color: inherit; }
 .brand { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; flex: none; }
 .brand-logo { height: 20px; width: auto; display: block; }
 .brand-logo-light { display: none; }
-@media (prefers-color-scheme: light) { :root:not([data-theme="dark"]) .brand-logo-dark { display: none; } :root:not([data-theme="dark"]) .brand-logo-light { display: block; } }
 :root[data-theme="light"] .brand-logo-dark { display: none; }
 :root[data-theme="light"] .brand-logo-light { display: block; }
 .brand-tag { font-size: 13px; font-weight: 500; color: var(--muted); padding-left: 10px; border-left: 1px solid var(--line-strong); line-height: 1; }
@@ -89,7 +77,6 @@ button { font: inherit; color: inherit; }
 .ic-moon { display: none; }
 :root[data-theme="light"] .ic-sun { display: none; }
 :root[data-theme="light"] .ic-moon { display: block; }
-@media (prefers-color-scheme: light) { :root:not([data-theme]) .ic-sun { display: none; } :root:not([data-theme]) .ic-moon { display: block; } }
 
 /* shell */
 .shell {

@@ -17,7 +17,7 @@
   function isDark() {
     var t = document.documentElement.getAttribute('data-theme');
     if (t) return t === 'dark';
-    return !window.matchMedia('(prefers-color-scheme: light)').matches;
+    return true; // 기본은 다크. 기기 설정은 따르지 않음
   }
   function syncThemeLabel() { $('theme-toggle').setAttribute('aria-label', isDark() ? '밝은 화면으로 바꾸기' : '어두운 화면으로 바꾸기'); }
   try { var saved = localStorage.getItem('sowallab-docs-theme'); if (saved === 'light' || saved === 'dark') document.documentElement.setAttribute('data-theme', saved); } catch (e) {}
