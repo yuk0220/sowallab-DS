@@ -2,9 +2,9 @@
 
     python3 tools/check-sync.py
 
-고치지는 않고 어긋난 곳만 알려 줍니다. 문제가 없으면 마지막 줄에 '모두 맞음'이 나옵니다.
+고치지는 않고 어긋난 곳만 알려 줍니다. 어긋남이 있으면 실패(종료 코드 1)로 끝나서 PR 자동 점검이 빨간불이 됩니다. 문제가 없으면 마지막 줄에 '모두 맞음'이 나옵니다.
 """
-import json, os, re, glob
+import json, os, re, glob, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 P = lambda *a: os.path.join(ROOT, *a)
@@ -126,3 +126,4 @@ for n in notes:
 for p in problems:
     print(p)
 print(f"\n어긋남 {len(problems)}건" if problems else "\n모두 맞음")
+sys.exit(1 if problems else 0)
