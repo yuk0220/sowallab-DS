@@ -1,0 +1,324 @@
+{
+ "v": 3,
+ "layout": "files",
+ "createdOnFiles": {
+  "v": 1,
+  "at": "2026-11-09T13:27:16Z"
+ },
+ "title": "sowallab",
+ "namespace": "Sowallab",
+ "libraries": [],
+ "sections": {},
+ "groups": [
+  "Logos",
+  "Brand",
+  "Tools",
+  "Photography",
+  "Video"
+ ],
+ "assetGroups": {
+  "Logos": {
+   "name": "Logos",
+   "tile": "l",
+   "order": [
+    "symbol.svg",
+    "wordmark_lo.svg",
+    "lockup_lo.svg",
+    "lockup-white.svg",
+    "favicon.svg"
+   ],
+   "files": {
+    "symbol.svg": {
+     "name": "symbol.svg",
+     "blob": "eced4e30435a4ca7ab1bb8b1bddb6fac",
+     "size": 7651,
+     "type": "image/svg+xml"
+    },
+    "wordmark_lo.svg": {
+     "name": "wordmark_lo.svg",
+     "blob": "3614c5397ab2f1092b9f47665635c549",
+     "size": 7809,
+     "type": "image/svg+xml"
+    },
+    "lockup_lo.svg": {
+     "name": "lockup_lo.svg",
+     "blob": "c2580d3c24a6baf7b7ca92a1459b32e4",
+     "size": 10045,
+     "type": "image/svg+xml"
+    },
+    "lockup-white.svg": {
+     "name": "lockup-white.svg",
+     "blob": "2d92ae3e119e3bd781f2c7d6321e96b7",
+     "size": 10048,
+     "type": "image/svg+xml"
+    },
+    "favicon.svg": {
+     "name": "favicon.svg",
+     "blob": "1b992b0bf2540034e0f23e4e3a5af160",
+     "size": 7722,
+     "type": "image/svg+xml"
+    }
+   }
+  },
+  "Brand": {
+   "name": "Brand",
+   "tile": "m",
+   "order": [
+    "og-image.jpg",
+    "apple-touch-icon.png",
+    "icon-512.png"
+   ],
+   "files": {
+    "og-image.jpg": {
+     "name": "og-image.jpg",
+     "blob": "29a428dafb0055fbb3eb79cec4dd61f6",
+     "size": 25636,
+     "type": "image/jpeg"
+    },
+    "apple-touch-icon.png": {
+     "name": "apple-touch-icon.png",
+     "blob": "9283d7910f7053d509503f4fd501e807",
+     "size": 5734,
+     "type": "image/png"
+    },
+    "icon-512.png": {
+     "name": "icon-512.png",
+     "blob": "a366cfbe482d3a690b28dd190854e398",
+     "size": 27926,
+     "type": "image/png"
+    }
+   }
+  },
+  "Tools": {
+   "name": "Tools",
+   "tile": "xs",
+   "order": [
+    "adobe.svg",
+    "adobeaftereffects.svg",
+    "autocad.svg",
+    "autodesk.svg",
+    "blender.svg",
+    "cinema4d.svg",
+    "claude.svg",
+    "cloudflare.svg",
+    "dassaultsystemes.svg",
+    "gltf.svg",
+    "houdini.svg",
+    "react.svg",
+    "rhinoceros.svg",
+    "threedotjs.svg",
+    "unrealengine.svg",
+    "webgl.svg"
+   ],
+   "files": {
+    "adobe.svg": {
+     "name": "adobe.svg",
+     "blob": "d72f009e76f752f59c11e67ceaeb5766",
+     "size": 222,
+     "type": "image/svg+xml"
+    },
+    "adobeaftereffects.svg": {
+     "name": "adobeaftereffects.svg",
+     "blob": "15d6cc9fb05a802d01f3d927645e76de",
+     "size": 1536,
+     "type": "image/svg+xml"
+    },
+    "autocad.svg": {
+     "name": "autocad.svg",
+     "blob": "3702a55249015adaab077334c192b80b",
+     "size": 474,
+     "type": "image/svg+xml"
+    },
+    "autodesk.svg": {
+     "name": "autodesk.svg",
+     "blob": "fe27eb31c264e0ff967c696a23ca30f1",
+     "size": 309,
+     "type": "image/svg+xml"
+    },
+    "blender.svg": {
+     "name": "blender.svg",
+     "blob": "abfb49deb81f82885ffd8682ac238fd4",
+     "size": 1300,
+     "type": "image/svg+xml"
+    },
+    "cinema4d.svg": {
+     "name": "cinema4d.svg",
+     "blob": "9b39f56341fe042bb97409f2696015d6",
+     "size": 1004,
+     "type": "image/svg+xml"
+    },
+    "claude.svg": {
+     "name": "claude.svg",
+     "blob": "a5beff247dfa7512015f2b240c293d9e",
+     "size": 1927,
+     "type": "image/svg+xml"
+    },
+    "cloudflare.svg": {
+     "name": "cloudflare.svg",
+     "blob": "af2fc61e94fcd306de07dc33a4a530de",
+     "size": 1184,
+     "type": "image/svg+xml"
+    },
+    "dassaultsystemes.svg": {
+     "name": "dassaultsystemes.svg",
+     "blob": "830a09605e3eda631dee2607e64a44a9",
+     "size": 1356,
+     "type": "image/svg+xml"
+    },
+    "gltf.svg": {
+     "name": "gltf.svg",
+     "blob": "2d96665008fade8a9679be10f88c9acf",
+     "size": 1845,
+     "type": "image/svg+xml"
+    },
+    "houdini.svg": {
+     "name": "houdini.svg",
+     "blob": "2252230b843c10b8806fa5621a6b8510",
+     "size": 721,
+     "type": "image/svg+xml"
+    },
+    "react.svg": {
+     "name": "react.svg",
+     "blob": "6402316fa54cb071b3d1e1f5e20bcdd1",
+     "size": 2932,
+     "type": "image/svg+xml"
+    },
+    "rhinoceros.svg": {
+     "name": "rhinoceros.svg",
+     "blob": "fb7235e8ebd2b5ee9b26d3c76bfb17bd",
+     "size": 4529,
+     "type": "image/svg+xml"
+    },
+    "threedotjs.svg": {
+     "name": "threedotjs.svg",
+     "blob": "166f0759bbbccaf6128aa8a6365d88fa",
+     "size": 903,
+     "type": "image/svg+xml"
+    },
+    "unrealengine.svg": {
+     "name": "unrealengine.svg",
+     "blob": "5e38a2729fa3a12d0109a322cd3a018f",
+     "size": 823,
+     "type": "image/svg+xml"
+    },
+    "webgl.svg": {
+     "name": "webgl.svg",
+     "blob": "85300930a84dcd895f2986bb652f0595",
+     "size": 2459,
+     "type": "image/svg+xml"
+    }
+   }
+  },
+  "Photography": {
+   "name": "Photography",
+   "tile": "l",
+   "order": [
+    "hero-factory.jpg",
+    "hero-factory-m.jpg",
+    "rec-conveyor.jpg",
+    "rec-film.jpg",
+    "rec-lcd.jpg",
+    "rec-line.jpg",
+    "rec-robot.jpg",
+    "rec-toolchanger.jpg",
+    "rec-weld.jpg"
+   ],
+   "files": {
+    "hero-factory.jpg": {
+     "name": "hero-factory.jpg",
+     "blob": "9c3442c72b7426006b362f9efd7d5535",
+     "size": 328645,
+     "type": "image/jpeg"
+    },
+    "hero-factory-m.jpg": {
+     "name": "hero-factory-m.jpg",
+     "blob": "5cc351efe9e7a0d5f0e78848cc3b204e",
+     "size": 139222,
+     "type": "image/jpeg"
+    },
+    "rec-conveyor.jpg": {
+     "name": "rec-conveyor.jpg",
+     "blob": "f52f4196c916fe54a436e7a25557b7da",
+     "size": 133755,
+     "type": "image/jpeg"
+    },
+    "rec-film.jpg": {
+     "name": "rec-film.jpg",
+     "blob": "8e14f8fe4ff8db26835a6b7cf01609e3",
+     "size": 81263,
+     "type": "image/jpeg"
+    },
+    "rec-lcd.jpg": {
+     "name": "rec-lcd.jpg",
+     "blob": "598834bc6b81174421030e49f16091a4",
+     "size": 90413,
+     "type": "image/jpeg"
+    },
+    "rec-line.jpg": {
+     "name": "rec-line.jpg",
+     "blob": "de85c96328722090a3c92e756d45f52f",
+     "size": 98526,
+     "type": "image/jpeg"
+    },
+    "rec-robot.jpg": {
+     "name": "rec-robot.jpg",
+     "blob": "714def4678f1abffc9629406bd33188b",
+     "size": 18238,
+     "type": "image/jpeg"
+    },
+    "rec-toolchanger.jpg": {
+     "name": "rec-toolchanger.jpg",
+     "blob": "3854fc9edad6efa0d20b7f820decab0b",
+     "size": 21441,
+     "type": "image/jpeg"
+    },
+    "rec-weld.jpg": {
+     "name": "rec-weld.jpg",
+     "blob": "4a6fd611482cfa6208a321f42b8a542a",
+     "size": 241826,
+     "type": "image/jpeg"
+    }
+   }
+  },
+  "Video": {
+   "name": "Video",
+   "tile": "m",
+   "order": [
+    "sphere_mono.mp4",
+    "sphere.mp4",
+    "sphere_mono_poster.jpg"
+   ],
+   "files": {
+    "sphere_mono.mp4": {
+     "name": "sphere_mono.mp4",
+     "blob": "63a2d0e1cdc36af8daac844e2e7186c2",
+     "size": 145591,
+     "type": "video/mp4"
+    },
+    "sphere.mp4": {
+     "name": "sphere.mp4",
+     "blob": "024707078a5743a7b0b4754a25acbf07",
+     "size": 174755,
+     "type": "video/mp4"
+    },
+    "sphere_mono_poster.jpg": {
+     "name": "sphere_mono_poster.jpg",
+     "blob": "b2ed923b0d6b6e329912e756ffe27ff3",
+     "size": 5582,
+     "type": "image/jpeg"
+    }
+   }
+  }
+ },
+ "blobs": {},
+ "docs": {
+  "readme": "project/README.md",
+  "sections": []
+ },
+ "lastChange": {
+  "by": "육예진",
+  "at": "2026-11-09T16:42:27Z",
+  "via": "Claude Code",
+  "note": "success 색 계열(400 #22D37F)과 text·icon·border·fill-success 시맨틱 토큰 추가"
+ }
+}
